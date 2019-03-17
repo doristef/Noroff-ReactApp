@@ -1,0 +1,33 @@
+.card-columns {
+    column-count: 3; // Set how many cards are in each column
+  }
+
+.card {
+    border-radius: 8px;
+    position: relative;
+    background-color: lighten($gray, 7%);
+
+    & img.card-img-top {
+        width: 100%;
+        opacity: 1;
+        transition: .8s ease;
+    }
+
+    & .overlay {
+        transition: .8s ease;
+        opacity: 0;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    & a:hover img.card-img-top  {
+        opacity: 0.1;
+    }
+
+    & a:hover .overlay {
+        opacity: 1;
+    }
+  }

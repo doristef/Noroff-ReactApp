@@ -1,0 +1,10 @@
+nav {
+    & a h3 {
+        transition: .8s ease;
+    }
+    & a:hover h3 {
+        color: $color1;
+        text-decoration: none;
+        transition: .8s ease;
+    }
+} 

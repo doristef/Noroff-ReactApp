@@ -1,8 +1,19 @@
 .header {
     width: 100%;
 
-    & img {
+    &--img {
         width: 150px;
         padding: 20px 0px 0px;
     }
+
+    &--title {
+        transition: .8s ease;
+    
+        &:hover {
+            color: $color1 !important;
+            text-decoration: none;
+            transition: .8s ease;
+        }
+    }
+    
 }

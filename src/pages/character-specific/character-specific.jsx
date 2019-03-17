@@ -50,7 +50,7 @@ export default class CharacterSpecific extends React.Component {
         return (
             <div className="[ row ]">
                 <div className="[ col-sm-12 ]">
-                    <Nav msg={<h3> Take me back, please!</h3>} /> 
+                    <Nav msg={ 'Take me back, please!' } /> 
                 </div>
                 <div className="[ col-sm-12 ][ mb-3 ]">
                         {specificCharacter}

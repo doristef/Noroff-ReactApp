@@ -7,7 +7,7 @@ export default class CharacterSpecificComponent extends React.Component {
 <div className="[ card ]">
         <div className="[ row ] [ no-gutters ]">
             <div className="[ col-sm-auto ]">
-                <img src={this.props.image} className="[ img-fluid ]" style={{height: '100%'}} alt={this.props.name} />
+                <img src={this.props.image} className="[ card-img-top ][ h-100 ]"  alt={this.props.name} />
             </div>
             <div className="[ col-sm-auto ]">
                 <div className="[ card-block ] [ px-2 ]">
@@ -27,7 +27,7 @@ export default class CharacterSpecificComponent extends React.Component {
                 </div>
             </div>
         </div>
-        <div className="card-footer w-100 text-muted">
+        <div className="[ card-footer ] [ w-100 ] [ text-muted ]">
         <b>Episodes: </b>
                 <span className="[ p-1 pl-3 ][ d-block ]"> 
                

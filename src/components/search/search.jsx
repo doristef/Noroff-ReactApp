@@ -39,7 +39,7 @@ export default class Search extends React.Component {
                             placeholder="Type in a character"
                         />
                         <div className="[ input-group-append ]">
-                            <button type="button" className="[ btn btn-warning input-group-btn ]" onClick={this.clearForm} > reset </button>
+                            <button type="button" className="[ btn btn-warning ] [ input-group-btn ]" onClick={this.clearForm} > reset </button>
                         </div>
                     </div>
                 </div>

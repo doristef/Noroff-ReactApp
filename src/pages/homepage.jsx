@@ -93,7 +93,7 @@ export default class Homepage extends React.Component {
                             </div>
                             <div className="[ col-sm-8 ][ mb-3 ]">
                                 <h1>
-                                    Rick and Morty Character Database
+                                    Rick and Morty - Character Database
                                 </h1>
                                 <Search onSearchTerm={app.handleSearchTerm}></Search>
                             </div>
@@ -102,7 +102,7 @@ export default class Homepage extends React.Component {
 
                     <div className="[ col-sm-12 ]">
                         <div className="[ row ] [ mb-5 ]">
-                            <div className="[ text-center w-100 ]">{ app.state.msg }</div>
+                            <div className="[ text-center ] [ w-100 ]">{ app.state.msg }</div>
                             {app.state.rickMortyCards}
                         </div>
                     </div>

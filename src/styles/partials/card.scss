@@ -23,11 +23,17 @@
         -ms-transform: translate(-50%, -50%);
         text-align: center;
       }
-    & a:hover img.card-img-top  {
-        opacity: 0.1;
-    }
 
-    & a:hover .overlay {
+    &-hovering:hover  {
+       .card-title {
+        color: $color1;
+        transition: .8s ease;
+      }
+      .card-img-top  {
+        opacity: 0.1;
+      }
+      .overlay {
         opacity: 1;
+      }
     }
-  }
+}

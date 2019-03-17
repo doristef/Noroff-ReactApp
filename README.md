@@ -19,7 +19,7 @@ Clone the project to your machine, cd into the folder and run " npm i " to insta
  
  4. npm start
  
- 5. localhost:8080/#/
+ 5. Open brower to localhost:8080/#/
  
 ```
 

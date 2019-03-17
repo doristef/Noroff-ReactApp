@@ -6,7 +6,7 @@ Installation
 ---
 
 Please make sure you have git installed along with node, and is up to date.
-Clone the project to your machine, cd into the folder and run " npm i " to install the dependecies after that you can run the project by running " npm start ". Then you can open your browser to http://0.0.0.0:8080/
+Clone the project to your machine, cd into the folder and run " npm i " to install the dependecies after that you can run the project by running " npm start ". Then you can open your browser to localhost:8080/#/
 
 ```
 ## Usage
@@ -19,7 +19,7 @@ Clone the project to your machine, cd into the folder and run " npm i " to insta
  
  4. npm start
  
- 5. http://0.0.0.0:8080/
+ 5. localhost:8080/#/
  
 ```
 

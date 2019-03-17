@@ -52,16 +52,9 @@ export default class Homepage extends React.Component {
     createCards() {
         const app = this;
         let rickMortyArray;
-        if(app.state.rickMortyFilter){
-            rickMortyArray = app.state.rickMortyObjFiltered;
-            if( rickMortyArray.length === 0 ) { 
-                app.state.msg = <h1> Nothing found! </h1>; 
-            }else{
-                app.state.msg = '';
-            }
-        }else{
-            rickMortyArray = app.state.rickMortyObj;
-        }
+        app.state.rickMortyFilter ? rickMortyArray = app.state.rickMortyObjFiltered : rickMortyArray = app.state.rickMortyObj; // Check if user is searching
+        rickMortyArray.length === 0 ? app.state.msg = <h1> Nothing found! </h1> : app.state.msg = ''; // Check if search delivers results
+
     
         rickMortyArray.forEach((value, key) => {
             app.state.rickMortyCards.push(

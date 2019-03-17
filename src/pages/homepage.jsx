@@ -49,7 +49,7 @@ export default class Homepage extends React.Component {
         },app.createCards());
     }
 
-    createCards() {
+    createCards = () => {
         const app = this;
         let rickMortyArray;
         app.state.rickMortyFilter ? rickMortyArray = app.state.rickMortyObjFiltered : rickMortyArray = app.state.rickMortyObj; // Check if user is searching
